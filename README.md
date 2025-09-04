@@ -86,7 +86,7 @@ Finally, results were visualized for **all classifiers across all vectorization 
   ![Word2Vec Accuracy](images/Accuracy%20Comparison%20for%20Word2Vec.png)
 
 
-📌 ## **Key Findings:**
+## 📌 **Key Findings:**
 ## **Model Evaluation Insights – Emotion Classification**
 ---
 
@@ -154,4 +154,13 @@ If robustness against noisy data is preferred (rather than interpretability), **
 
 ---
 
+## 📬 Let's Connect
+
+- **LinkedIn:** [Indu R](https://www.linkedin.com/in/indu-r-3a3767170/)
+
+- ---
+
+## 🙌 Feedback & Support
+
+If you found this project helpful or interesting, feel free to ⭐ star the repository and share your thoughts. Contributions and suggestions are always welcome!
 
