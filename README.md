@@ -77,13 +77,13 @@ Finally, results were visualized for **all classifiers across all vectorization 
 
 ### Accuracy Comparisons
 - **Bag of Words (BoW)**  
-  ![BoW Accuracy](images/accuracy_comparison_bow.png)
+  ![BoW Accuracy](images/Accuracy%20Comparison%20for%20BoW.png)
 
 - **TF-IDF**  
-  ![TF-IDF Accuracy](images/accuracy_comparison_tfidf.png)
+  ![TF-IDF Accuracy](images/Accuracy%20Comparison%20for%20TF-IDF.png)
 
 - **Word2Vec**  
-  ![Word2Vec Accuracy](images/accuracy_comparison_word2vec.png)
+  ![Word2Vec Accuracy](images/Accuracy%20Comparison%20for%20Word2Vec.png)
 
 
 📌 ## **Key Findings:**
