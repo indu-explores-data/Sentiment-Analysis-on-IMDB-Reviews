@@ -77,13 +77,14 @@ Finally, results were visualized for **all classifiers across all vectorization 
 
 ### Accuracy Comparisons
 - **Bag of Words (BoW)**  
-  ![BoW Accuracy](Accuracy%20Comparison%20for%20BoW.png)
+  ![BoW Accuracy](accuracy_comparison_bow.png)
 
 - **TF-IDF**  
-  ![TF-IDF Accuracy](Accuracy%20Comparison%20for%20TF-IDF.png)
+  ![TF-IDF Accuracy](accuracy_comparison_tfidf.png)
 
 - **Word2Vec**  
-  ![Word2Vec Accuracy](Accuracy%20Comparison%20for%20Word2Vec.png)
+  ![Word2Vec Accuracy](accuracy_comparison_word2vec.png)
+
 
 📌 **Key Findings:**
 ## **Model Evaluation Insights – Emotion Classification**
