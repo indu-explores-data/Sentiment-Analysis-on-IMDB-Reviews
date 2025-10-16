@@ -145,22 +145,65 @@ If robustness against noisy data is preferred (rather than interpretability), **
 ---
 
 ## 🛠 Tech Stack
-- **Language**: Python 3.x  
-- **Libraries**:  
-  - Data Processing → `pandas`, `numpy`  
-  - NLP → `nltk`, `spacy`, `gensim`  
-  - Machine Learning → `scikit-learn`  
-  - Visualization → `matplotlib`, `seaborn`  
+
+| Category      | Tools |
+|---------------|----------------------|
+| Language      | Python 3.x |
+| NLP Libraries | NLTK, SpaCy, Gensim |
+| ML Libraries  | Scikit-learn |
+| Data          | Pandas, NumPy |
+| Visualization | Matplotlib, Seaborn |
 
 ---
 
-## 📬 Let's Connect
+## 💻 Setup & Installation Instructions
 
-- **LinkedIn:** [Indu R](https://www.linkedin.com/in/indu-r-3a3767170/)
+Follow these steps to set up the project locally and run the analysis:
 
-- ---
+1. **Clone the Repository:**  
+```bash
+git clone https://github.com/indu-explores-data/Sentiment-Analysis-on-IMDB-Reviews.git
+```
+2. **Navigate to the Project Directory:**
+```
+cd Sentiment-Analysis-on-IMDB-Reviews
+```
+3. **Create and Activate a Virtual Environment (Recommended):**
+```
+python -m venv venv
+```
+**Windows:**
+```
+venv\Scripts\activate
+```
+**Mac/Linux:**
+```
+source venv/bin/activate
+```
+4. **Install Required Libraries:**
+```
+pip install -r requirements.txt
+```
+5. **Launch Jupyter Notebook:**
+```
+jupyter notebook
+```
+6. Open **Sentiment Analysis.ipynb** and run all cells to reproduce the analysis.
 
-## 🙌 Feedback & Support
+---
 
-If you found this project helpful or interesting, feel free to ⭐ star the repository and share your thoughts. Contributions and suggestions are always welcome!
+▶️ **Usage / How to Run**
 
+- Open **Sentiment Analysis.ipynb** in Jupyter Notebook.
+- Run all cells sequentially to reproduce the visualizations and insights.
+- Key insights can be found in the final sections, and visualizations are saved in the images/ folder.
+
+---
+
+## 🔗 **Connect with Me**
+
+For feedback, collaboration opportunities, or related queries:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/indu-r-3a3767170/)
+
+---
