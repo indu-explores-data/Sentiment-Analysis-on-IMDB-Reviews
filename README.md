@@ -161,38 +161,38 @@ If robustness against noisy data is preferred (rather than interpretability), **
 Follow these steps to set up the project locally and run the analysis:
 
 1. **Clone the Repository:**  
-```bash
-git clone https://github.com/indu-explores-data/Sentiment-Analysis-on-IMDB-Reviews.git
-```
+   ```bash
+   git clone https://github.com/indu-explores-data/Sentiment-Analysis-on-IMDB-Reviews.git
+   ```
 2. **Navigate to the Project Directory:**
-```
-cd Sentiment-Analysis-on-IMDB-Reviews
-```
+   ```
+   cd Sentiment-Analysis-on-IMDB-Reviews
+   ```
 3. **Create and Activate a Virtual Environment (Recommended):**
-```
-python -m venv venv
-```
-**Windows:**
-```
-venv\Scripts\activate
-```
-**Mac/Linux:**
-```
-source venv/bin/activate
-```
+   ```
+   python -m venv venv
+   ```
+   **Windows:**
+   ```
+   venv\Scripts\activate
+   ```
+   **Mac/Linux:**
+   ```
+   source venv/bin/activate
+   ```
 4. **Install Required Libraries:**
 ```
 pip install -r requirements.txt
 ```
 5. **Launch Jupyter Notebook:**
-```
-jupyter notebook
-```
+   ```
+   jupyter notebook
+   ```
 6. Open **Sentiment Analysis.ipynb** and run all cells to reproduce the analysis.
 
 ---
 
-▶️ **Usage / How to Run**
+## ▶️ **Usage / How to Run**
 
 - Open **Sentiment Analysis.ipynb** in Jupyter Notebook.
 - Run all cells sequentially to reproduce the visualizations and insights.
@@ -200,10 +200,14 @@ jupyter notebook
 
 ---
 
-## 🔗 **Connect with Me**
+## 🔗 Connect with Me
 
-For feedback, collaboration opportunities, or related queries:
+Let’s connect on LinkedIn for project discussions or data-driven collaborations:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/indu-r-3a3767170/)
 
 ---
+
+## 🙌 Feedback & Support
+
+If you found this project helpful, please ⭐ star the repository and share your thoughts. Suggestions and contributions are always welcome!
