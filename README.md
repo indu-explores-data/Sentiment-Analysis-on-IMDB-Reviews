@@ -181,9 +181,9 @@ Follow these steps to set up the project locally and run the analysis:
    source venv/bin/activate
    ```
 4. **Install Required Libraries:**
-```
-pip install -r requirements.txt
-```
+   ```
+   pip install -r requirements.txt
+   ```
 5. **Launch Jupyter Notebook:**
    ```
    jupyter notebook
