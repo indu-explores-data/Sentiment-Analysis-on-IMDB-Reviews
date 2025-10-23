@@ -86,11 +86,11 @@ Finally, results were visualized for **all classifiers across all vectorization 
   ![Word2Vec Accuracy](images/Accuracy%20Comparison%20for%20Word2Vec.png)
 
 
-## 📌 **Key Findings:**
-## **Model Evaluation Insights – Emotion Classification**
+## 📌 Key Findings:
+## Model Evaluation Insights – Emotion Classification
 ---
 
-### **Bag-of-Words (BoW)**
+### Bag-of-Words (BoW)
 - **Overall Performance:** Most models perform at the same level with **Accuracy = 0.6** and **F1 = 0.45**, except **Decision Tree** which drops to **Accuracy = 0.2, F1 = 0.24**.  
 - **Best Models:** Logistic Regression, Naive Bayes, Random Forest, SVM, and KNN all tie with **F1 = 0.45**.  
 - **Observations:**  
@@ -99,7 +99,7 @@ Finally, results were visualized for **all classifiers across all vectorization 
 
 ---
 
-### **TF-IDF**
+### TF-IDF
 - **Overall Performance:** Very similar to BoW → most models **Accuracy = 0.6, F1 = 0.45**, with **Decision Tree lagging (F1 = 0.24)**.  
 - **Best Models:** Logistic Regression, Naive Bayes, Random Forest, SVM, KNN (all tied with F1 = 0.45).  
 - **Observations:**  
@@ -109,7 +109,7 @@ Finally, results were visualized for **all classifiers across all vectorization 
 
 ---
 
-### **Word2Vec**
+### Word2Vec
 - **Overall Performance:** Most models stabilize at **Accuracy = 0.6, F1 = 0.45**, with **Decision Tree slightly better than before (F1 = 0.40)**.  
 - **Best Models:** Logistic Regression, Random Forest, SVM, and KNN all tie at **F1 = 0.45**.  
 - **Observations:**  
@@ -118,7 +118,7 @@ Finally, results were visualized for **all classifiers across all vectorization 
 
 ---
 
-### **Key Takeaways**
+### Key Takeaways
 - Across **BoW, TF-IDF, and Word2Vec**, most classifiers (except Decision Tree) show **similar moderate performance** with **F1 ≈ 0.45**.  
 - **Decision Tree consistently underperforms**, especially in recall.  
 - **Hyperparameter tuning equalized results** across models — before tuning, KNN stood out slightly, but after tuning, most models converged to similar scores.  
@@ -126,7 +126,7 @@ Finally, results were visualized for **all classifiers across all vectorization 
 
 ---
 
-### **Recommendation**
+### Recommendation
 
 Based on the evaluation results, **Logistic Regression with TF-IDF features** is the best choice:
 
@@ -136,7 +136,7 @@ Based on the evaluation results, **Logistic Regression with TF-IDF features** is
 
 If robustness against noisy data is preferred (rather than interpretability), **Random Forest with Word2Vec** can be considered as an alternative.  
 
-#### **Final Recommendation:**
+#### Final Recommendation:
 
 **Logistic Regression + TF-IDF** (primary choice), with **Random Forest + Word2Vec** as a secondary option.
 
@@ -160,39 +160,39 @@ If robustness against noisy data is preferred (rather than interpretability), **
 
 Follow these steps to set up the project locally and run the analysis:
 
-1. Clone the Repository: 
+**1. Clone the Repository:**
    ```bash
    git clone https://github.com/indu-explores-data/Sentiment-Analysis-on-IMDB-Reviews.git
    ```
-2. Navigate to the Project Directory:
+**2. Navigate to the Project Directory:**
    ```
    cd Sentiment-Analysis-on-IMDB-Reviews
    ```
-3. Create and Activate a Virtual Environment (Recommended):
+**3. Create and Activate a Virtual Environment (Recommended):**
    ```
    python -m venv venv
    ```
-   Windows:
+   **Windows:**
    ```
    venv\Scripts\activate
    ```
-   Mac/Linux:
+   **Mac/Linux:**
    ```
    source venv/bin/activate
    ```
-4. Install Required Libraries:
+**4. Install Required Libraries:**
    ```
    pip install -r requirements.txt
    ```
-5. Launch Jupyter Notebook:
+**5. Launch Jupyter Notebook:**
    ```
    jupyter notebook
    ```
-6. Open **Sentiment Analysis.ipynb** and run all cells to reproduce the analysis.
+**6. Open `Sentiment Analysis.ipynb` and run all cells to reproduce the analysis.**
 
 ---
 
-## ▶️ **Usage / How to Run**
+## ▶️ Usage / How to Run
 
 - Open **Sentiment Analysis.ipynb** in Jupyter Notebook.
 - Run all cells sequentially to reproduce the visualizations and insights.
